@@ -1,0 +1,10 @@
+SP width=  256  lr*=0.002857 (grid 0.002154)  loss*=0.03852   (27s)
+SP width=  512  lr*=0.001916 (grid 0.002154)  loss*=0.03750   (74s)
+SP width= 1024  lr*=0.0006337 (grid 0.0004642)  loss*=0.03713   (200s)
+muP width=  256  lr*=0.002857 (grid 0.002154)  loss*=0.03852   (223s)
+muP width=  512  lr*=0.002772 (grid 0.002154)  loss*=0.03549   (269s)
+muP width= 1024  lr*=0.00208 (grid 0.002154)  loss*=0.03317   (392s)
+SP: d log10(lr*)/d log2(width) = -0.327 (lr* ~ width^-1.09); predicted lr* at 4096 = 0.0001581
+muP: d log10(lr*)/d log2(width) = -0.069 (lr* ~ width^-0.23); predicted lr* at 4096 = 0.00158
+target variance (loss of predicting the mean) = 0.2385
+done in 397s

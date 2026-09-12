@@ -1,0 +1,30 @@
+[warmup100] 51s  final loss 2.157
+   attn_out  plateau@ 204  ratio(last100)=3.74e-03  (ratio/lr)@1=19.61 -> 3.74
+   attn_qkv  plateau@ 224  ratio(last100)=4.41e-03  (ratio/lr)@1=15.98 -> 4.41
+   head      plateau@ 177  ratio(last100)=2.82e-03  (ratio/lr)@1=19.50 -> 2.82
+   ln_gain   plateau@ 119  ratio(last100)=2.60e-04  (ratio/lr)@1=1.00 -> 0.26
+   mlp_fc1   plateau@ 109  ratio(last100)=3.88e-03  (ratio/lr)@1=19.59 -> 3.88
+   mlp_fc2   plateau@ 110  ratio(last100)=5.80e-03  (ratio/lr)@1=39.21 -> 5.80
+   pos_emb   plateau@ 123  ratio(last100)=3.31e-04  (ratio/lr)@1=1.00 -> 0.33
+   tok_emb   plateau@ 217  ratio(last100)=2.96e-04  (ratio/lr)@1=0.90 -> 0.30
+[nowarmup] 110s  final loss 2.069
+   attn_out  plateau@ 246  ratio(last100)=4.20e-03  (ratio/lr)@1=19.61 -> 4.20
+   attn_qkv  plateau@ 210  ratio(last100)=4.23e-03  (ratio/lr)@1=15.99 -> 4.23
+   head      plateau@ 151  ratio(last100)=3.00e-03  (ratio/lr)@1=19.50 -> 3.00
+   ln_gain   plateau@ 229  ratio(last100)=2.74e-04  (ratio/lr)@1=1.00 -> 0.27
+   mlp_fc1   plateau@ 204  ratio(last100)=4.33e-03  (ratio/lr)@1=19.59 -> 4.33
+   mlp_fc2   plateau@  62  ratio(last100)=6.33e-03  (ratio/lr)@1=39.21 -> 6.33
+   pos_emb   plateau@ 210  ratio(last100)=3.40e-04  (ratio/lr)@1=1.00 -> 0.34
+   tok_emb   plateau@ 132  ratio(last100)=3.05e-04  (ratio/lr)@1=0.90 -> 0.31
+
+warmup vs no-warmup, same batches: ratio/lr agrees to within 10% from
+   attn_out  step 400
+   attn_qkv  step 218
+   head      step 124
+   ln_gain   step 101
+   mlp_fc1   step 362
+   mlp_fc2   step 332
+   pos_emb   step 82
+   tok_emb   step 225
+   -> slowest layer: step 400
+done in 111s

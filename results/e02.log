@@ -1,0 +1,10 @@
+beta2=0.999: uncorrected step is up to 6.57x too large (worst at step 12); within 10%/5%/1% of corrected after 1660/2327/3916 steps
+beta2=0.99: uncorrected step is up to 2.13x too large (worst at step 13); within 10%/5%/1% of corrected after 166/232/390 steps
+beta2=0.95: uncorrected step is up to 1.10x too large (worst at step 20); within 10%/5%/1% of corrected after 6/42/76 steps
+  bc_s0: loss[0]=4.814 loss[19]=2.806 loss[-1]=2.010  (46s)
+  bc_s1: loss[0]=4.839 loss[19]=2.923 loss[-1]=2.197  (94s)
+  nobc_s0: loss[0]=4.814 loss[19]=2.551 loss[-1]=1.757  (139s)
+  nobc_s1: loss[0]=4.839 loss[19]=2.601 loss[-1]=2.044  (187s)
+
+smoothed |bc - nobc| loss gap falls inside the seed-to-seed spread from step None
+done in 187s

@@ -1,0 +1,18 @@
+cosine lr=0.001   val@300=2.3884 [2.3884]  (34s)
+cosine lr=0.002   val@300=2.2889 [2.2889]  (68s)
+cosine lr=0.004   val@300=2.1623 [2.1623]  (102s)
+cosine lr=0.008   val@300=2.0348 [2.0348]  (137s)
+cosine lr=0.016   val@300=2.1103 [2.1103]  (187s)
+cosine lr=0.032   val@300=2.3968 [2.3968]  (243s)
+wsd    lr=0.001   val@300=2.2937 [2.2937]  (277s)
+wsd    lr=0.002   val@300=2.1432 [2.1432]  (313s)
+wsd    lr=0.004   val@300=1.9495 [1.9495]  (346s)
+wsd    lr=0.008   val@300=1.9115 [1.9115]  (380s)
+wsd    lr=0.016   val@300=2.0079 [2.0079]  (427s)
+wsd    lr=0.032   val@300=2.3145 [2.3145]  (480s)
+
+tuned peak LR: {'cosine': 0.008, 'wsd': 0.008}
+cosine: val@200=2.2181  val@300=2.0885
+wsd: val@200=2.1941  val@300=1.9503
+WSD forked at 200 and decayed over 30 steps: val=2.0559  (cosine@200 = 2.1661, cosine@300 = 2.0348)
+done in 633s

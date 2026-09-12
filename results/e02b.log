@@ -1,0 +1,16 @@
+bc lr=0.0002   val=2.5565  (50s)
+bc lr=0.0005   val=2.3817  (94s)
+bc lr=0.001    val=2.2766  (139s)
+bc lr=0.002    val=2.1563  (184s)
+bc lr=0.004    val=2.0531  (231s)
+bc lr=0.008    val=2.1532  (285s)
+nobc lr=0.0002   val=2.3665  (334s)
+nobc lr=0.0005   val=2.2131  (382s)
+nobc lr=0.001    val=2.1445  (428s)
+nobc lr=0.002    val=2.2610  (482s)
+nobc lr=0.004    val=2.6599  (561s)
+nobc lr=0.008    val=2.9054  (634s)
+
+best per side: {'bc': {'lr': 0.004, 'val': 2.0530538161595664}, 'nobc': {'lr': 0.001, 'val': 2.1444745461146035}}
+best-of-each gap in val loss: 0.0914
+done in 634s

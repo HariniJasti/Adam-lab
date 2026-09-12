@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.DS_Store
+# regenerated on first run from local stdlib sources (~1.5 MB)
+results/corpus.txt
